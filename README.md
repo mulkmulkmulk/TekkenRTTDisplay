@@ -11,10 +11,8 @@ follow **Part 1** below first. If you already have UE4SS working for Tekken
 8, skip straight to **Part 2**.
 
 ## Demo
-https://github.com/user-attachments/assets/638f9562-2f1d-4c6a-b08f-28c66dbb8b96
 
-
-
+<video src="https://github.com/user-attachments/assets/638f9562-2f1d-4c6a-b08f-28c66dbb8b96" controls width="600"></video>
 
 ---
 
@@ -67,9 +65,13 @@ how many Skyrim mods require SKSE.
 
 ## Part 2: Installing TekkenRTTDisplay
 
-1. In the `Win64` folder from Part 1, open the `Mods` folder (UE4SS
+1. Download `TekkenRTTDisplay-release.zip` from this repo (green "Code" button area
+   near the top of the page, or just click the file in the file list) and extract it
+   somewhere on your PC.
+2. In the `Win64` folder from Part 1, open the `Mods` folder (UE4SS
    created this for you).
-2. Copy the entire `TekkenRTTDisplay` folder (the one in TekkenRTTDisplay-release.zip) into `Mods`, so you end up with:
+3. Copy the entire `TekkenRTTDisplay` folder (from the zip you just
+   extracted) into `Mods`, so you end up with:
    `Win64\Mods\TekkenRTTDisplay\enabled.txt`
    `Win64\Mods\TekkenRTTDisplay\Scripts\main.lua`
    `Win64\Mods\TekkenRTTDisplay\dlls\main.dll`
@@ -77,10 +79,10 @@ how many Skyrim mods require SKSE.
    (A common mistake: some zip tools create an extra nested folder. Make
    sure `enabled.txt` is directly inside `TekkenRTTDisplay`, not inside
    `TekkenRTTDisplay\TekkenRTTDisplay`.)
-3. Launch the game. No further setup, no editing any config files.
-4. To verify it loaded: check `UE4SS.log` for a line like
+4. Launch the game. No further setup, no editing any config files.
+5. To verify it loaded: check `UE4SS.log` for a line like
    `Mod 'TekkenRTTDisplay' has enabled.txt, starting mod.`
-5. Go into matchmaking (Ranked or Quick Match). Once an opponent is found
+6. Go into matchmaking (Ranked or Quick Match). Once an opponent is found
    and the accept dialog appears, the connection-rate label should now
    read something like `Ping: 67 ms | Disconnection Rate: 0%`.
 
@@ -120,7 +122,6 @@ your system is touched. (To also remove UE4SS entirely, delete
   the UE4SS project.
 
 ## Source / how it works
-
-Full source (including the native component) is available on GitHub for
-anyone who wants to verify what this does or rebuild it themselves:
-(https://github.com/mulkmulkmulk/TekkenRTTDisplay/blob/main/TekkenRTTDisplay-source.zip)
+Full source (including the native component) is available for anyone who
+wants to verify what this does or rebuild it themselves:
+[TekkenRTTDisplay-source.zip](https://github.com/mulkmulkmulk/TekkenRTTDisplay/blob/main/TekkenRTTDisplay-source.zip)
