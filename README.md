@@ -1,7 +1,3 @@
-
-
-
-
 # TekkenRTTDisplay
 
 Shows your real pre-battle ping (RTT, in milliseconds) on the matchmaking
@@ -15,10 +11,8 @@ follow **Part 1** below first. If you already have UE4SS working for Tekken
 8, skip straight to **Part 2**.
 
 ## Demo
+https://github.com/user-attachments/assets/638f9562-2f1d-4c6a-b08f-28c66dbb8b96
 
-[TODO: drag your video file directly into this line while editing this
-README in the GitHub web editor -- GitHub will auto-upload it and replace
-this text with a working embed. See the repo setup notes for exact steps.]
 
 
 
