@@ -69,8 +69,7 @@ how many Skyrim mods require SKSE.
 
 1. In the `Win64` folder from Part 1, open the `Mods` folder (UE4SS
    created this for you).
-2. Copy the entire `TekkenRTTDisplay` folder (the one next to this
-   README) into `Mods`, so you end up with:
+2. Copy the entire `TekkenRTTDisplay` folder (the one in TekkenRTTDisplay-release.zip) into `Mods`, so you end up with:
    `Win64\Mods\TekkenRTTDisplay\enabled.txt`
    `Win64\Mods\TekkenRTTDisplay\Scripts\main.lua`
    `Win64\Mods\TekkenRTTDisplay\dlls\main.dll`
