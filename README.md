@@ -1,9 +1,11 @@
+
 # TekkenRTTDisplay
 
 Shows your real pre-battle ping (RTT, in milliseconds) on the matchmaking
 accept dialog, instead of only the bucketed antenna-bar quality indicator.
 The number is read directly from the game's own RTT statistics manager,
 before you ever accept or decline.
+<img width="1202" height="652" alt="rtt display" src="https://github.com/user-attachments/assets/f5f78155-f0fd-4677-bec8-768b9229e9be" />
 
 Requires [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) (a scripting/modding
 framework for Unreal Engine games). If you've never installed UE4SS before,
