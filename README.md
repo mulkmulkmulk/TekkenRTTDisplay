@@ -12,6 +12,9 @@ framework for Unreal Engine games). If you've never installed UE4SS before,
 follow **Part 1** below first. If you already have UE4SS working for Tekken
 8, skip straight to **Part 2**.
 
+The're is an alternative crash fix at: https://github.com/lrobsky/TekkenRTTDisplay-CrashFix . I'll try to incorporate it into the mod later on. Check it out !
+
+
 ## Demo
 
 <video src="https://github.com/user-attachments/assets/638f9562-2f1d-4c6a-b08f-28c66dbb8b96" controls width="600"></video>
